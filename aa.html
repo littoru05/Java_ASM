@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Button</title>
+    <style>
+        /* Tải font kỹ thuật số (DS-Digital hoặc font tương tự) */
+        @font-face {
+            font-family: 'DS-Digital';
+            src: url('https://db.onlinewebfonts.com/t/DS-Digital.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Nền để dễ nhìn nút */
+        }
+
+        .back-button {
+            width: 125px;
+            height: 50px;
+            background-color: #2A3E50; /* Màu xanh đậm */
+            color: #FFFFFF; /* Chữ màu trắng */
+            font-family: 'DS-Digital', 'OCR-A', monospace; /* Font kỹ thuật số */
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px; /* Căn giữa chữ theo chiều dọc */
+            border: none; /* Không có viền */
+            border-radius: 10px; /* Bo góc */
+            cursor: pointer;
+            text-transform: uppercase; /* Chữ in hoa */
+        }
+
+        .back-button:hover {
+            background-color: #2A3E50; /* Giữ nguyên màu khi hover (theo hình ảnh) */
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button">hard</button>
+</body>
+</html>
